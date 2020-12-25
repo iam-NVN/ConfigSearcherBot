@@ -33,7 +33,7 @@ I make it easier for you to find the config you need❣️
 
 **I'm made By @NinjaNaveen
 
-🔸For Requesting Configs and For Reporting Dead Configs in this Bot, Kindly DM @NinjaGiveaways_Bot**
+🔹For Requesting Configs and For Reporting Dead Configs in this Bot, Kindly DM @NinjaGiveaways_Bot**
 """
 INFO_MSG = """
 **Hey there!
