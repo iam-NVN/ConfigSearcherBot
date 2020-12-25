@@ -26,9 +26,13 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 START_MSG = """
-**Hi, I'm Media Search bot**
+**Hi, I'm Config Searcher bot🔍**
 
-Here you can search files in inline mode. Just press following buttons and start searching.
+Here you can find most of the Configs for Openbullet in inline mode.
+I make it easier for you to find the config you need❣️
+
+**I'm made By @NinjaNaveen
+If you need to request any config in this bot, Then DM @NinjaGiveaways_Bot**
 """
 
-SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
+SHARE_BUTTON_TEXT = 'Yo, Checkout {username}. There you can find most of the Configs for Openbullet in inline mode. **It make it easier for us to find the config we need❣️**'
