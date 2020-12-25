@@ -11,9 +11,10 @@ logger = logging.getLogger(__name__)
 @Client.on_message(filters.command('start'))
 async def start(bot, message):
     """Start command handler"""
+    url = 't.me/ninjanaveen'
     buttons = [[
-        InlineKeyboardButton('Search Here', switch_inline_query_current_chat=''),
-        InlineKeyboardButton('Go Inline', switch_inline_query=''),
+        InlineKeyboardButton('Search For a Config🔍', switch_inline_query_current_chat=''),
+        InlineKeyboardButton('Owner☑️', url=url),
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply(START_MSG, reply_markup=reply_markup)
@@ -22,12 +23,7 @@ async def start(bot, message):
 @Client.on_message(filters.command('info'))
 async def info(bot, message):
     """info command handler"""
-    buttons = [[
-        InlineKeyboardButton('Search Here', switch_inline_query_current_chat=''),
-        InlineKeyboardButton('Go Inline', switch_inline_query=''),
-    ]]
-    reply_markup = InlineKeyboardMarkup(buttons)
-    await message.reply(INFO_MSG, reply_markup=reply_markup)
+    await message.reply(INFO_MSG)
 
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
