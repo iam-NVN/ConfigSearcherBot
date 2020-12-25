@@ -2,7 +2,7 @@ import os
 import logging
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from info import START_MSG, CHANNELS, ADMINS
+from info import START_MSG, INFO_MSG, CHANNELS, ADMINS
 from utils import Media
 
 logger = logging.getLogger(__name__)
@@ -17,6 +17,17 @@ async def start(bot, message):
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply(START_MSG, reply_markup=reply_markup)
+    
+    
+@Client.on_message(filters.command('info'))
+async def info(bot, message):
+    """info command handler"""
+    buttons = [[
+        InlineKeyboardButton('Search Here', switch_inline_query_current_chat=''),
+        InlineKeyboardButton('Go Inline', switch_inline_query=''),
+    ]]
+    reply_markup = InlineKeyboardMarkup(buttons)
+    await message.reply(INFO_MSG, reply_markup=reply_markup)
 
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
