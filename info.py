@@ -32,7 +32,21 @@ Here you can find most of the Configs for Openbullet in inline mode.
 I make it easier for you to find the config you need❣️
 
 **I'm made By @NinjaNaveen
-If you need to request any config in this bot, Then DM @NinjaGiveaways_Bot**
+
+If you want us to add any config to this bot, Then DM @NinjaGiveaways_Bot
+If you find Any dead configs in this bot, Kindly Report it to @NinjaGiveaways_Bot**
+"""
+INFO_MSG = """
+**Hey there!
+I'm made to make it easier for you to find the config you need❣️
+
+Admins:-
+@NinjaNaveen
+@luciferr_xD
+@yourdaddy9999
+
+If you want us to add any config to this bot, Then DM @NinjaGiveaways_Bot
+If you find Any dead configs in this bot, Kindly Report it to @NinjaGiveaways_Bot**
 """
 
 SHARE_BUTTON_TEXT = 'Yo, Checkout {username}. There you can find most of the Configs for Openbullet in inline mode. **It make it easier for us to find the config we need❣️**'
