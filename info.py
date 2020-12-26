@@ -41,11 +41,19 @@ I'm made to make it easier for you to find the config you need❣️
 
 Admins:-
 @NinjaNaveen
-@luciferr_xD
-@yourdaddy9999
+@YourDaddy9999
+@Luciferr_xD
 
-If you want us to add any config to this bot, Then DM @NinjaGiveaways_Bot
-If you find Any dead configs in this bot, Kindly Report it to @NinjaGiveaways_Bot**
+Credits for Configs:-
+@NinjaNaveen
+@YourDaddy9999
+@Luciferr_xD
+@Lucif3rHun
+@PYTHON_XD
+@Tonami_YT
+
+
+☑️For Requesting Configs and For Reporting Dead Configs in this Bot, Kindly DM @NinjaGiveaways_Bot**
 """
 
 SHARE_BUTTON_TEXT = 'Yo, Checkout {username}. There you can find most of the Configs for Openbullet in inline mode. **It make it easier for us to find the config we need❣️**'
