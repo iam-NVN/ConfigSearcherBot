@@ -49,9 +49,8 @@ Credits for Configs:-
 @YourDaddy9999
 @Luciferr_xD
 @Lucif3rHun
-@PYTHON_XD
+@Python_xD
 @Tonami_YT
-
 
 ☑️For Requesting Configs and For Reporting Dead Configs in this Bot, Kindly DM @NinjaGiveaways_Bot**
 """
