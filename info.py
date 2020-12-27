@@ -63,14 +63,14 @@ HELP_MSG = """
 🔰Type my Username @ConfigSearcher_Bot and you can type the desired config you need.
 
 Example:-** 
-     @ConfigSearcher_Bot Heroku  -- Will give Heroku Config
+     @ConfigSearcher_Bot Heroku - Will give Heroku Config
 
 
 **🔰You can either Type the Name of the Site or you can Use Keywords
 
 Example:- **
-     @ConfigSearcher_Bot Indian  -- Will show list of Indian sites configs
-     @ConfigSearcher_Bot Streaming  -- Will show list of Streaming sites configs
+     @ConfigSearcher_Bot Indian - Will show list of Indian sites configs
+     @ConfigSearcher_Bot Streaming - Will show list of Streaming sites configs
 
 
 **☑️ For Requesting Configs and For Reporting Dead Configs in this Bot, Kindly DM @NinjaGiveaways_Bot**
