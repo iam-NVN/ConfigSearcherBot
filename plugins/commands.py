@@ -2,7 +2,7 @@ import os
 import logging
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from info import START_MSG, INFO_MSG, CHANNELS, ADMINS
+from info import START_MSG, INFO_MSG, HELP_MSG, CHANNELS, ADMINS
 from utils import Media
 
 logger = logging.getLogger(__name__)
@@ -24,8 +24,14 @@ async def start(bot, message):
 async def info(bot, message):
     """info command handler"""
     await message.reply(INFO_MSG)
+    
+    
+@Client.on_message(filters.command('help'))
+async def help(bot, message):
+    """help command handler"""
+    await message.reply(HELP_MSG)
 
-
+    
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
 async def channel_info(bot, message):
     """Send basic information of channel"""
