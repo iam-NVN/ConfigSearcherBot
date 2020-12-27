@@ -51,6 +51,8 @@ Credits for Configs:-
 @Lucif3rHun
 @Python_xD
 @Tonami_YT
+@sylas_T_H_P
+@Guptaajiii
 
 ☑️For Requesting Configs and For Reporting Dead Configs in this Bot, Kindly DM @NinjaGiveaways_Bot**
 """
