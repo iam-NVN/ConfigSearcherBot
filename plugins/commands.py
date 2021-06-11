@@ -31,6 +31,12 @@ async def help(bot, message):
     """help command handler"""
     await message.reply(HELP_MSG)
 
+
+@Client.on_message(filters.command('helpadmin') & filters.user(ADMINS))
+async def adminhelp(bot, message):
+    """adminhelp command handler"""
+    await message.reply(ADMINHELP_MSG)
+    
     
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
 async def channel_info(bot, message):
