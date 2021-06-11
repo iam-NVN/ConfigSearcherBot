@@ -26,14 +26,13 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 START_MSG = """
-**Hi, I'm Config Searcher bot🔍**
+**Halooo! I'm @NinjaNaveen's Config Searcher Bot**
 
-Here you can find most of the Configs for Openbullet in inline mode.
-I make it easier for you to find the config you need❣️
+Here you can find all of my Configs for Openbullet in inline mode.
+I made it easier for you to find the config you need❣️
+**
 
-**I'm made By @NinjaNaveen
-
-☑️For Requesting Configs and For Reporting Dead Configs in this Bot, Kindly DM @NinjaGiveaways_Bot**
+☑️For Requesting Configs and For Reporting Dead Configs in this Bot, Kindly DM @NinjaNaveenBot**
 """
 INFO_MSG = """
 **Hey there!
@@ -60,20 +59,20 @@ HELP_MSG = """
 **🌀 How to Use Me?
 
 
-🔰Type my Username @ConfigSearcher_Bot and you can type the desired config you need.
+🔰Type my Username @NinjaNaveenConfigsBot and you can type the desired config you need.
 
 Example:-** 
-     @ConfigSearcher_Bot Heroku - Will give Heroku Config
+     @NinjaNaveenConfigsBot Heroku - Will give Heroku Config
 
 
 **🔰You can either Type the Name of the Site or you can Use Keywords
 
 Example:- **
-     @ConfigSearcher_Bot Indian - Will show list of Indian sites configs
-     @ConfigSearcher_Bot Streaming - Will show list of Streaming sites configs
+     @NinjaNaveenConfigsBot Indian - Will show list of Indian sites configs
+     @NinjaNaveenConfigsBot Streaming - Will show list of Streaming sites configs
 
 
-**☑️ For Requesting Configs and For Reporting Dead Configs in this Bot, Kindly DM @NinjaGiveaways_Bot**
+**☑️ For Requesting Configs and For Reporting Dead Configs in this Bot, Kindly DM @NinjaNaveenBot**
 """
 
-SHARE_BUTTON_TEXT = 'Yo, Checkout {username}. There you can find most of the Configs for Openbullet in inline mode. **It make it easier for us to find the config we need❣️**'
+SHARE_BUTTON_TEXT = "Yo, Checkout {username}. There you can find all of @NinjaNaveen's Configs for Openbullet in inline mode."
