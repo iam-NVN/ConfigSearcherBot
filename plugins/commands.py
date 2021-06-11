@@ -20,12 +20,6 @@ async def start(bot, message):
     await message.reply(START_MSG, reply_markup=reply_markup)
     
     
-@Client.on_message(filters.command('info'))
-async def info(bot, message):
-    """info command handler"""
-    await message.reply(INFO_MSG)
-    
-    
 @Client.on_message(filters.command('help'))
 async def help(bot, message):
     """help command handler"""
