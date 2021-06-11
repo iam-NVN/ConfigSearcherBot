@@ -29,8 +29,7 @@ START_MSG = """
 **Halooo! I'm @NinjaNaveen's Config Searcher Bot**
 
 Here you can find all of my Configs for Openbullet in inline mode.
-I made it easier for you to find the config you need❣️
-**
+I made it easier for you to find the config you need❣️**
 
 ☑️For Requesting Configs and For Reporting Dead Configs in this Bot, Kindly DM @NinjaNaveenBot**
 """
