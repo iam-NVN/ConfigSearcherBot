@@ -78,6 +78,7 @@ Example:-**
 Example:- **
      @NinjaNaveenConfigsBot Indian - Will show list of Indian sites configs
      @NinjaNaveenConfigsBot Streaming - Will show list of Streaming sites configs
+     @NinjaNaveenConfigsBot Proxyless - Will show list of Proxyless configs
 
 
 **☑️ For Requesting Configs and For Reporting Dead Configs in this Bot, Kindly DM @NinjaNaveenBot**
