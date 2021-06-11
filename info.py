@@ -34,6 +34,15 @@ I made it easier for you to find the config you need❣️
 
 ☑️For Requesting Configs and For Reporting Dead Configs in this Bot, Kindly DM @NinjaNaveenBot**
 """
+
+ADMINHELP_MSG = """
+/channel
+/helpadmin
+/total
+/logger
+/delete
+"""
+
 INFO_MSG = """
 **Hey there!
 I'm made to make it easier for you to find the config you need❣️
